@@ -1,0 +1,14 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 576px) {
+  .container {
+    margin-top: 20px;
+    padding: 15px;
+  }
+}
+
